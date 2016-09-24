@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sk616.birthdaycardapp20.Main2Activity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image"
+        android:src="@drawable/qq"
+        android:scaleType="centerCrop"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From..."
+        android:textSize="30sp"
+        android:textColor="#FFFDE7"
+        android:layout_marginBottom="76dp"
+        android:textStyle="italic"
+        android:id="@+id/text2"
+        android:layout_marginRight="79dp"
+        android:layout_marginEnd="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sender's Name"
+        android:textSize="30sp"
+        android:textColor="#FFFDE7"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/text3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="23dp" />
+
+
+</RelativeLayout>
