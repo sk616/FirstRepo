@@ -44,5 +44,18 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="23dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Will Be Displayed Here"
+        android:textSize="40sp"
+        android:textColor="#FFFDE7"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/text1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
 
 </RelativeLayout>
